@@ -1,5 +1,5 @@
 # Banglish
-A Conde-switched Dataset for Bangla and English Voice Commands
+A Dataset for Bangla-English Code-switched Voice Commands
 
 ## Dataset Structure
 Our curated dataset contains 3840 audio samples (.wav files) obtained from 30 female and 30 male contributors. The audio files have undergone 1 form of pre-processing - extracting sound envelope. This pre-processing step simply removes regions of silence or "dead zones" usually present in the beginning and end of the audio file. The voice commands are divided into eleven classes. Ten classes define ten different commands, each with five intraclass variations representing five different ways of speaking the same command. One extra class termed “Miscellaneous Examples” consists of 14 misspoken commands to offset the correctly spoken commands with some invalid ones. The classes are listed as follows:
